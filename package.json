@@ -1,12 +1,12 @@
 {
-  "name": "life-design-system",
+  "name": "@life/components",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Joel Mora <joel@lead.ec>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint",
-    "tsc": "tsc"
+    "build": "tsc",
+    "lint": "eslint"
   },
   "dependencies": {
     "clsx": "^2.0.0",

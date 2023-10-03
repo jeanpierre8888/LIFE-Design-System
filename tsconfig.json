@@ -12,12 +12,8 @@
     "declaration": true,
     "declarationDir": "types",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-    "outDir": "build/dist",
-    "paths": {
-      "~components/*": ["./src/components/*"]
-    }
+    "emitDeclarationOnly": true
   },
-  "exclude": ["node_modules", "build"],
-  "types": ["typePatches"]
+  "include": ["ui/**/*"],
+  "exclude": ["node_modules"]
 }
