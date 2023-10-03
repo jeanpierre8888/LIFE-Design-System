@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es6", "dom", "dom.iterable"],
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "types",
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": true,
+    "outDir": "build/dist",
+    "paths": {
+      "~components/*": ["./src/components/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"],
+  "types": ["typePatches"]
+}
