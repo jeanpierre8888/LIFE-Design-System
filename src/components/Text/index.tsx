@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import React, { HTMLProps, PropsWithChildren } from "react";
-import { TextTag, TextTagEnum, textTagMap } from "..";
+import TextTag, { TextTagEnum, textTagMap } from "../TextTag";
 
 export type TextProps = {
   variation:
